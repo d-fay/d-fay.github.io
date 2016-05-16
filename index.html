@@ -46,10 +46,10 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	        <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#resume2">Skills</a></li>
+	        <li><a class="smoothscroll" href="#resume">Experience</a></li>
+            <li><a class="smoothscroll" href="#resume3">Skills</a></li>
             <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Inspiration</a></li>
+            <!--<li><a class="smoothscroll" href="#testimonials">Inspiration</a></li>-->
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
@@ -59,15 +59,17 @@
       <div class="row banner" style="z-index:99 !important; position: relative; ">
 
          <div class="banner-text">
-            <h1 class="responsive-headline">I am <span>a creator</span></h1>
-            <h2></h2><br>
-            <h3>A Denver based <span><a href="https://github.com/taky2/" target="_blank">developer</a></span>, a
+            <h1 class="responsive-headline">I am <span>a creator.</span></h1>
+            <br>
+            <h3>I am a Denver based <span><a href="https://github.com/taky2/" target="_blank">developer</a></span>, a
                <span><a href="https://kymamuse.bandcamp.com" target="_blank">music maker</a></span>, and a
-               <span>student</span> of Computer Science. Passionate about technology, I'm always looking for
+               <span><a class="smoothscroll" href="#education">student</a></span> of Computer Science. Passionate about technology, I'm always looking for
                opportunities to continue expanding my knowledge and skills. <br><br>
-               <div style="margin-left:15%; margin-right:15%;">Start <a class="smoothscroll" href="#about">scrolling</a> to find out more <a class="smoothscroll" href="#about">about me</a>
+
+               <div style="margin-left:15%; margin-right:15%;">Start <a class="smoothscroll" href="#about">scrolling</a>
+               to find out more <a class="smoothscroll" href="#about">about me</a>
                and my journey through this ever-changing digital landscape.</div></h3>
-            <hr />
+
             <ul class="social">
                <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
@@ -163,7 +165,14 @@
                   <p class="info">Web Developer and IT Consultant <span>&bull;</span> <em class="date">May 2015 - Present</em></p>
 
                   <p>
-                     "Introduced through the Startup Summer Colorado 2015 internship program. Startup Summer is a ten-week program that combines a summer internship with a Boulder, Denver, or Colorado Springs area startup company with a series of evening events, all focused on teaching participants the fundamentals of creating and running a successful startup. Interns will face tasks and challenges in the work place that will prepare them for a bright future in entrepreneurship. They will work with some of the hottest startups in Colorado and learn directly from the entrepreneurs who started them. Applicants to the program are dedicated and driven young entrepreneurs with a strong interest in the emerging and exciting world of startups."
+                     "Introduced through the Startup Summer Colorado 2015 internship program. Startup Summer is a
+                      ten-week program that combines a summer internship with a Boulder, Denver, or Colorado Springs
+                      area startup company with a series of evening events, all focused on teaching participants the
+                      fundamentals of creating and running a successful startup. Interns will face tasks and challenges
+                      in the work place that will prepare them for a bright future in entrepreneurship. They will work
+                      with some of the hottest startups in Colorado and learn directly from the entrepreneurs who
+                      started them. Applicants to the program are dedicated and driven young entrepreneurs with a
+                      strong interest in the emerging and exciting world of startups."
                      &nbsp;<i>&nbsp;from <a href="http://startupcolorado.com/">StartupSummer.com</a></i>
                   </p>
 
@@ -179,14 +188,19 @@
 
                   <h3>Aetna / iTriage LLC</h3>
                   <p class="info">Associate Architect <span>&bull;</span> <em class="date">March 2010 - August 2015</em></p>
-
-                  Working with a team of digital services experts, it is the duty of the architecture team at iTriage to develop and communicate a detailed technology architecture and implementation strategy. Drawing from a vast collection of experience with infrastructure and web technologies, the digital architecture team interprets and translates client requirements to design complex digital services solutions.</br>
+                   Working with a team of digital services experts, it is the duty of the architecture team at iTriage
+                   to develop and communicate a detailed technology architecture and implementation strategy. Drawing
+                   from a vast collection of experience with infrastructure and web technologies, the digital
+                   architecture team interprets and translates client requirements to design complex digital services
+                   solutions.</br>
                   <br>
                   <dl>
                      <div class="info"><div class="date">Specifics:</div></div>
                   </dl>
                   <dd>
-                     <strong>&bull;</strong> Involvement with high-level architecture solutions used to increase productivity & maintain consistent quality service</br>
+                     <strong>&bull;</strong> Involvement with high-level architecture solutions used to increase productivity
+                                             & maintain consistent quality service</br>
+
                      <strong>&bull;</strong> Understanding of an advanced DevOps technology stack</br>
 
                      <strong>&bull;</strong> Aggregation of key metrics and performance indicators into a single point of access (dashboard)</br>
@@ -203,13 +217,24 @@
 
       </div> <!-- End Work -->
 
+   </section> <!-- Resume Section End-->
 
+   <!-- Resume Section
+   ================================================== -->
+   <section id="education">
       <!-- Education
       ----------------------------------------------- -->
       <div class="row education">
 
          <div class="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span style="border-bottom: 3px solid #11ABB0;
+                             padding-bottom: 6px;
+                             font: 18px/24px 'opensans-bold', sans-serif;
+                             text-transform: uppercase;
+                             letter-spacing: 1px;">
+                Education
+                </span>
+            </h1>
          </div>
 
          <div class="nine columns main-col">
@@ -265,11 +290,11 @@
 
       </div> <!-- End Education -->
 
-   </section> <!-- Resume Section End-->
+   </section> <!-- Education Section End-->
 
-   <!-- Resume Section
+   <!-- Resume3 Skills Section
    ================================================== -->
-   <section id="resume2">
+   <section id="resume3">
 
       <!-- Skills
       ----------------------------------------------- -->
@@ -306,7 +331,7 @@
                       </li>
                       <li>
                           <span class="bar-expand cloud"></span><em>Cloud</em><br>
-                          <span class="skills-desc"><i>AWS EC2, Heroku, Digital Ocean, etc</i></span>
+                          <span class="skills-desc"><i>AWS EC2, Heroku, Digital Ocean, Linux, Ubuntu</i></span>
                       </li>
                       <li>
                           <span class="bar-expand adobe"></span><em>Adobe CS/CC</em><br>
@@ -439,7 +464,9 @@
 
             <div class="description-box">
                <h4>Java Code Minifification</h4>
-               <p>Program designed to import, alter, and export several text files. Preserves formatting while removing all Java style comments, removing all blanks lines, and renaming output file. </p>
+               <p>Program designed to import, alter, and export several text files. Preserves formatting while removing
+                  all Java style comments, removing all blanks lines, and renaming output file.
+               </p>
                <span class="categories"><i class="fa fa-tag"></i>Java, CLI, Software Development, String Formatting, File I/O</span>
             </div>
 
@@ -456,7 +483,10 @@
 
 		      <div class="description-box">
 			      <h4>Personal GitHub Repository</h4>
-			      <p>Mostly consisting of school projects, this source code repository is an archive of many projects I have worked on in recent years. Includes Android mobile device programming, Java multithreading and I/O, even some ARM assembly programming.</p>
+			      <p>Mostly consisting of school projects, this source code repository is an archive of many projects I
+                     have worked on in recent years. Includes Android mobile device programming, Java multithreading and
+                     I/O, even some ARM assembly programming.
+                  </p>
                <span class="categories"><i class="fa fa-tag"></i>Java, Python, C-LISP, Prolog, PostScript, Assembly, ARM</span>
 		      </div>
 
@@ -473,7 +503,8 @@
 
 		      <div class="description-box">
                   <h4>Professional GitHub Repository</h4>
-                  <p>This is a newer GitHub account created to help build my online presence and reputation. Included are some of my most recent projects.</p>
+                  <p>This is a newer GitHub account created to help build my online presence and reputation.
+                     Included are some of my most recent projects as well as this website</p>
                   <span class="categories"><i class="fa fa-tag"></i>Web Development</span>
 		      </div>
 
@@ -490,8 +521,12 @@
 
               <div class="description-box">
                   <h4>Synchronized Multithreaded Client-Server Chat Programs</h4>
-                  <p>Server-side java code uses threads to allow an arbitrary number of clients to connect at any given time. It broadcasts messages received to all connected clients. </p>
-                  <span class="categories"><i class="fa fa-tag"></i>Java, GUI, Multi-threading, Client-Server Architecture, Socket Programming</span>
+                  <p>Server-side java code uses threads to allow an arbitrary number of clients to connect at any given
+                     time. It broadcasts messages received to all connected clients.
+                  </p>
+                  <span class="categories"><i class="fa fa-tag"></i>Java, GUI, Multi-threading,
+                     Client-Server Architecture, Socket Programming
+                  </span>
               </div>
 
               <div class="link-box">
@@ -633,7 +668,7 @@
             <ul class="copyright">
                <li>Copyright 2014 CeeVee</li>
                <li>Creative Commons - Attribution-ShareAlike</li>
-               <li>Original design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+               <li>Original design by <a title="Styleshout" href="http://www.styleshout.com/" style="color: #303030;">Styleshout</a></li>
                <br><br>
                <img src="images/CC-BY-SA_88x31.png" alt="Smiley face" height="31" width="88">
                 <!-- CC BY-SA -->
@@ -662,7 +697,7 @@
    <!-- poly-animation -->
    <script>
 
-      /* https://github.com/d3/d3-timer Copyright 2015 Mike Bostock */
+      /* Copyright 2015 Mike Bostock [https://github.com/d3/d3-timer] */
       "undefined"==typeof requestAnimationFrame&&(requestAnimationFrame="undefined"!=typeof window&&(window.msRequestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.oRequestAnimationFrame)||function(e){return setTimeout(e,17)}),function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n(e.timer={})}(this,function(e){"use strict";function n(){r=m=0,c=1/0,t(u())}function t(e){if(!r){var t=e-Date.now();t>24?c>e&&(m&&clearTimeout(m),m=setTimeout(n,t),c=e):(m&&(m=clearTimeout(m),c=1/0),r=requestAnimationFrame(n))}}function i(e,n,i){i=null==i?Date.now():+i,null!=n&&(i+=+n);var o={callback:e,time:i,flush:!1,next:null};a?a.next=o:f=o,a=o,t(i)}function o(e,n,t){t=null==t?Date.now():+t,null!=n&&(t+=+n),l.callback=e,l.time=t}function u(e){e=null==e?Date.now():+e;var n=l;for(l=f;l;)e>=l.time&&(l.flush=l.callback(e-l.time,e)),l=l.next;l=n,e=1/0;for(var t,i=f;i;)i.flush?i=t?t.next=i.next:f=i.next:(i.time<e&&(e=i.time),i=(t=i).next);return a=t,e}var a,m,r,f,l,c=1/0;e.timer=i,e.timerReplace=o,e.timerFlush=u});
 
       var canvas = document.querySelector("canvas"),

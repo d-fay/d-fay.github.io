@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/testimonialsdarkest-bg.png) no-repeat top center;
+   background: #161415 url(../images/testimonialsdark-bg.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -280,9 +280,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #ebeeee;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 38px;
    overflow: hidden;
 }
 
@@ -305,9 +305,13 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
+#education {
+   background: #fff;
+   overflow: hidden;
+}
 .education {
     margin-bottom: 48px;
-    border-top: 1px solid #E8E8E8;
+    /* border-top: 1px solid #E8E8E8; */
     padding-top: 96px;
     /* padding-bottom: 24px; */
     /* border-bottom: 1px solid #E8E8E8; */
@@ -336,43 +340,43 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume: Skills Sub-Section
 /* ------------------------------------------------------------------ */
 
-#resume2 {
+#resume3 {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume2 a, #resume2 a:visited  { color: #11ABB0; }
-#resume2 a:hover, #resume2 a:focus { color: #313131; }
+#resume3 a, #resume3 a:visited  { color: #11ABB0; }
+#resume3 a:hover, #resume3 a:focus { color: #313131; }
 
-#resume2 h1 {
+#resume3 h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume2 h1 span {
+#resume3 h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume2 h3 {
+#resume3 h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume2 .header-col { padding-top: 9px; }
-#resume2 .main-col { padding-right: 10%; }
+#resume3 .header-col { padding-top: 9px; }
+#resume3 .main-col { padding-right: 10%; }
 
-#resume2 .info {
+#resume3 .info {
    font: 16px/24px 'opensans-regular', sans-serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume2 .info span {
+#resume3 .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume2 .date {
+#resume3 .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
