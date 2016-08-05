@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4028103">
-              <caret line="324" column="21" selection-start-line="324" selection-start-column="21" selection-end-line="324" selection-end-column="21" />
+            <state vertical-scroll-proportion="-4.848946">
+              <caret line="337" column="78" selection-start-line="337" selection-start-column="78" selection-end-line="337" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -245,7 +245,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15611814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -772,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4028103">
-          <caret line="324" column="21" selection-start-line="324" selection-start-column="21" selection-end-line="324" selection-end-column="21" />
+        <state vertical-scroll-proportion="-4.848946">
+          <caret line="337" column="78" selection-start-line="337" selection-start-column="78" selection-end-line="337" selection-end-column="78" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
