@@ -426,85 +426,85 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.java {
-   width: 70%;
-   -moz-animation: java 2s ease;
-   -webkit-animation: java 2s ease;
-}
 .python {
-   width: 35%;
+   width: 70%;
    -moz-animation: python 2s ease;
    -webkit-animation: python 2s ease;
 }
-.web {
-   width: 55%;
-   -moz-animation: web 2s ease;
-   -webkit-animation: web 2s ease;
+.java {
+   width: 35%;
+   -moz-animation: java 2s ease;
+   -webkit-animation: java 2s ease;
 }
-.android {
+.data {
+   width: 55%;
+   -moz-animation: data 2s ease;
+   -webkit-animation: data 2s ease;
+}
+.databases {
    width: 45%;
-   -moz-animation: android 2s ease;
-   -webkit-animation: android 2s ease;
+   -moz-animation: databases 2s ease;
+   -webkit-animation: databases 2s ease;
 }
 .cloud {
-  	width: 40%;
+  	width: 55%;
   	-moz-animation: cloud 2s ease;
   	-webkit-animation: cloud 2s ease;
 }
-.adobe {
+.unix {
   	width: 50%;
-  	-moz-animation: adobe 2s ease;
-  	-webkit-animation: adobe 2s ease;
+  	-moz-animation: unix 2s ease;
+  	-webkit-animation: unix 2s ease;
 }
 
 
-@-moz-keyframes java {
+@-moz-keyframes python {
    0%   { width: 0px;  }
    100% { width: 70%;  }
 }
-@-moz-keyframes python {
+@-moz-keyframes java {
    0%   { width: 0px;  }
    100% { width: 35%;  }
 }
-@-moz-keyframes web {
+@-moz-keyframes data {
    0%   { width: 0px;  }
    100% { width: 55%;  }
 }
-@-moz-keyframes android {
+@-moz-keyframes databases {
    0%   { width: 0px;  }
    100% { width: 45%;  }
 }
 @-moz-keyframes cloud {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 55%;  }
 }
-@-moz-keyframes adobe {
+@-moz-keyframes unix {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
 
 
-@-webkit-keyframes java {
+@-webkit-keyframes python {
    0%   { width: 0px;  }
    100% { width: 70%;  }
 }
-@-webkit-keyframes python {
+@-webkit-keyframes java {
    0%   { width: 0px;  }
    100% { width: 35%;  }
 }
-@-webkit-keyframes web {
+@-webkit-keyframes data {
    0%   { width: 0px;  }
    100% { width: 55%;  }
 }
-@-webkit-keyframes android {
+@-webkit-keyframes databases {
    0%   { width: 0px;  }
    100% { width: 45%;  }
 }
 @-webkit-keyframes cloud {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 55%;  }
 }
-@-webkit-keyframes adobe {
+@-webkit-keyframes unix {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
